@@ -1,0 +1,696 @@
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    #root {
+        overflow-x: hidden;
+    }
+
+    .row {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .header_back {
+        background-image: url('/bg-phone.png');
+        width: 100vw;
+        height: 647px;
+        background-size: 100% 100%;
+        background-position: center;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+
+    .header {
+        padding-top: 0px;
+        /* background: #C4C4C4; */
+    }
+
+    .header_l {
+        text-align: left;
+        padding-top: 15px;
+        padding-left: 11px !important;
+    }
+
+    .header_m {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 1px;
+        padding-left: 16% !important;
+        padding-top: 26px;
+        display: none;
+    }
+
+    .header_mc {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 48px;
+        width: 387px;
+        height: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .header_mc1 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        width: 387px;
+        height: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .header_mc1 a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .header_mp {
+        height: 24px;
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .header_r {
+        text-align: right;
+        padding-top: 15px;
+        padding-right: 11px !important;
+        flex: auto;
+    }
+
+    .header_rb {
+        width: 79px;
+        height: 47px;
+        background: linear-gradient(93.58deg, rgba(0, 77, 0, 0.33) 7.62%, rgba(1, 48, 30, 0.33) 104.97%);
+        border-radius: 4px;
+        float: right;
+        border: 0px;
+        display: none;
+    }
+
+    .header_rb_m {
+        padding-top: 4px;
+        padding-left: 10px;
+        width: 90px;
+        height: 26px;
+        background: linear-gradient(90deg, #46A273 -0.2%, #46A273 0.36%, #133641 100.2%);
+        border-radius: 4px;
+        float: right;
+    }
+
+    .herder_rb_m1 {
+        background: #021326;
+        float: right;
+        padding-top: 3px;
+        padding-left: 10px;
+    }
+
+    .header_rb_m p {
+        padding-left: 7px;
+        padding-top: 3px;
+        width: 43px;
+        height: 15px;
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.09em;
+        color: #FFFFFF;
+    }
+
+    .header_rb p {
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 24px;
+        padding-top: 9px;
+        align-items: center;
+        letter-spacing: 0.09em;
+        color: #FFFFFF;
+        display: none;
+    }
+
+    .logo_p {
+        padding-top: 5px;
+        padding-left: 39px;
+        font-family: 'PT Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18.7727px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+
+    .s_p2 {
+        width: 290px;
+        height: 43px;
+        margin-bottom: 0px !important;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 41px;
+        line-height: 43px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        background: linear-gradient(270deg, #1B4347 -1.39%, #3D906A 99.46%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        text-shadow: 3px 4px 17px rgba(255, 255, 255, 0.2);
+        
+    }
+
+    .s_p2::after {
+        content: "Hatom Token";
+        margin-left: -269px;
+        /* width: 565px; */
+        height: 43px;
+        margin-bottom: 0px !important;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 41px;
+        line-height: 43px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        text-shadow: 3px 4px 17px rgba(255, 255, 255, 0.2);
+        -webkit-text-fill-color: white;
+    }
+
+    .header_t {
+        padding-left: 0%;
+        padding-top: 39px;
+    }
+
+    .s_p1 {
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.02em;
+        width: 265px;
+        height: 52px;
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #3D906A;
+    }
+
+    .buy {
+        padding-top: 40px;
+        display: none !important;
+    }
+
+    .buy_m {
+        padding-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .buy_p1_m {
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+
+    .buy_p12_m {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #3555F7;
+    }
+
+    .buy_p1_m p {
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .buy_p2_m {
+        margin-top: 13px !important;
+        margin-bottom: 37px !important;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #5C5C5C;
+    }
+
+    .buy_p11_m {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000; 
+        padding-left: 20px;
+    }
+
+    .buy_p22_m {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #222222;
+    }
+
+    .buy_b {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 20px;
+        gap: 10px;
+        width: 200px;
+        height: 54px;
+        background: linear-gradient(270deg, #1B4347 -1.39%, #3D906A 99.46%);
+        border-radius: 12px;
+        float: right;
+        border: 0px;
+    }
+
+    .buy_b_m {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 20px;
+        gap: 10px;
+        width: 200px;
+        height: 54px;
+        background: linear-gradient(270deg, #1B4347 -1.39%, #3D906A 99.46%);
+        border-radius: 12px;
+        border: 0px;
+    }
+
+    .buy_b p {
+        width: 160px;
+        height: 22px;
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .buy_b_m p {
+        width: 160px;
+        height: 22px;
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .coin {
+        padding-top: 100px;
+        display: none !important;
+    }
+
+    .coin_m {
+        padding-top: 100px;
+    }
+
+    .coin_p1 {
+        width: 526px;
+        height: 50px;
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #3555F7;
+    }
+
+    .coin_pt {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+
+    .coin_pc {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        color: #222222;
+    }
+
+    .coin_dot {
+        width: 8px;
+        height: 8px;
+        background: #179C64;
+        border-radius: 4px;
+        float: left;
+        margin-top: 7px;
+        margin-right: 16px;
+    }
+
+    .coin_back_t {
+        margin-top: 48px !important;
+        margin-left: 65% !important;
+    }
+
+    .coin_back_b {
+        margin-top: -48px !important;
+        margin-left: 50% !important;
+    }
+
+    .sub {
+        margin-top: 78px !important;
+        width: 100vw;
+        height: 478px;
+        background: linear-gradient(90deg, #265B5C 0%, #11206B 100%);
+    }
+
+    .sub_c {
+        padding-top: 64px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .sub_ct {
+        margin-bottom: 0px !important;
+        /* width: 407px; */
+        height: 50px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .sub_cc {
+        /* width: 312px; */
+        height: 24px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #C4D3EA;
+        padding-top: 54px;
+    }
+
+    .search_sub {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center !important;
+        padding: 0px;
+        gap: 278px;
+        width: 55px !important;
+        height: 52px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        background-color: #315B82 !important;
+        border: 0px !important;
+    }
+
+    .sub_con {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 6px 6px 6px 32px;
+        margin: auto;
+        gap: 10px;
+        /* width: 363px; */
+        height: 63.63px;
+        background: #315B82;
+        border-radius: 12px;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .sub_con1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 563px;
+        height: 52px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .sub_btn {
+        display: flex;
+        color: #FFFFFF !important;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 36px;
+        gap: 10px;
+        width: 149px;
+        height: 52px;
+        background: linear-gradient(270deg, #1B4347 -1.39%, #3D906A 99.46%);
+        border-radius: 12px !important;
+        display: none !important;
+    }
+
+    .sub_btn_m {
+        display: flex;
+        color: #FFFFFF !important;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 36px !important;
+        gap: 10px;
+        width: 149px;
+        height: 52px;
+        background: linear-gradient(270deg, #1B4347 -1.39%, #3D906A 99.46%);
+        border-radius: 12px !important;
+        margin-top: 30px;
+    }
+
+    .sub_btn p {
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .footer_l1 {
+        padding-top: 179.5px !important;
+        padding-left: 50%;
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #8493B5;
+        display: none;
+    }
+
+    .footer_l1_m {
+        padding-right: 20px;
+        float: right;
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #8493B5;
+    }
+
+    .footer_c {
+        padding-left: 22px !important;
+    }
+
+    .footer_logo {
+        padding-left: 22px;
+        margin-bottom: -50px;
+    }
+
+    .footer_ct {
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        padding-top: 60px;
+    }
+
+    .footer_cc {
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #8493B5;
+    }
+
+    .footer_r {
+        text-align: right;
+        padding-right: 122px !important;
+    }
+
+    .footer_line {
+        width: 100vw;
+        height: 1px;
+        background: #0F2945;
+        margin-left: 0%;
+        margin-right: 118px;
+        margin-top: 50px;
+    }
+
+    .footer_1 {
+        width: 9px;
+        height: 9px;
+        background: #00D395;
+        border-radius: 5px;
+        float: left;
+        margin-top: 5px;
+        margin-left: -40px;
+    }
+
+    .footer_1_m {
+        width: 9px;
+        height: 9px;
+        background: #00D395;
+        border-radius: 5px;
+        float: left;
+        margin-top: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .footer_2 {
+        font-family: 'Neue Haas Grotesk Text Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11.6px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #8493B5;
+        margin-left: -20px;
+        float: left;
+    }
+
+    #animation {
+        background-image: url('/coin-sequence.png');
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 200px;
+        background-size: 200px, 200px;
+        margin-top: 50% !important;
+        margin-left: 120% !important;
+    }
+
+    #animation_m {
+        background-image: url('/coin-sequence.png');
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 200px;
+        background-size: 200px, 200px;
+        margin-top: 50% !important;
+        margin-left: 120% !important;
+    }
+
+}
+
+
+
